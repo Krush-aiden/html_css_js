@@ -1,6 +1,12 @@
-h1 {
-    text-align: center;
-    color: indigo;
+/* * {
+    font-size: 15px;
+} */
+html {
+    font-size: 12px;
+    color: rgb(31, 0, 88);
+    /* color: #ff0000; */
+    /* background-color: green; */
+    /* color: rgba(31, 0, 88, 0.6); */
 }
 
 #banner {
@@ -15,42 +21,179 @@ h1 {
 .location {
     color: blue;
     margin-bottom: 16px;
+    font-size: 18px;
 }
 
 body {
     margin: 0px;
     padding: 0px;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     /* width: auto; */
+    font-size: 17px;
+    font-weight: 600;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 1rem;
+    color: #444444;
 }
 
-.teamwork {
-    margin: 100px auto 200px;
-    padding: 100px;
+h1 {
+    /* text-align: center; */
+    font-size: 3rem;
+    text-align: center;
+    color: #222222;
+
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Inter';
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
 
 .aboutJovian {
     width: 50%;
-    padding: 50px 140px;
-    padding-top: 5px;
-    max-width: 600px;
-    margin: 0 auto;
+    color: #666666;
+    /* padding: 50px 130px; */
+    /* padding-top: 15px; */
+    max-width: 700px;
+    font-size: 1.5rem;
+    /* margin: 10 auto; */
+    margin-right: 30px;
 }
 
+
+/* top | right | bottom | left */
+
 .teamImage {
-    /* width: 30%; */
-    padding-right: auto;
-    margin: 0 auto;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: rgb(7, 89, 133);
+    border-style: solid;
+    margin-left: 80px;
+}
+
+
+
+/* .htmlForm { */
+/* width: 250px; */
+/* font-size: 15px; */
+/* text-align: left; */
+/* padding: 150px; */
+/* margin-left: 200px; */
+/* border: #222222; */
+/* border-radius: 15px; */
+/* border-width: 1px; */
+/* border-style: solid; */
+/* } */
+
+
+#application {
+    max-width: 1200px;
+    margin: 20 auto;
+    /* padding: 0 118px; */
+    /* border: 1px solid #222222; */
+}
+
+.htmlForm input,
+select {
+    margin-top: 8px;
+    padding: 8px;
+    font-size: 1.25rem;
+    border: 1px solid gray;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.htmlForm label {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.form-group {
+    margin: 16px 0;
+}
+
+/* ---> div has more priority than form-group */
+/* .htmlForm div { 
+    margin: 15px;
+} */
+
+
+.form-group textarea {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 6px;
+}
+
+.form-group input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #3B82F6;
+    border: 1px solid gray;
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+
+.teamwork {
+    width: 470px;
+    height: 365px;
+    /* margin: 100px auto 200px; */
+    /* padding: 100px; */
+    /* margin-right: 100px; */
 }
 
 .About {
     display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .allJobs {
-    padding-left: 350px;
+    /* padding-left: 350px; */
     /* margin-bottom: 70px; */
-    border-bottom: 1px;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border-bottom: 1px; */
+}
+
+.jobs-table {
+    width: 100%;
+    /* height: 200px; */
+    border: 1px solid gray;
+    border-collapse: collapse;
+    /* border-spacing: 15px; */
+}
+
+.jobs-table tr:nth-child(even) {
+    background-color: D6EEEE;
+}
+
+
+.jobs-header-row th {
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+    background-color: #BFDBFE;
+
+}
+
+
+.jobs-data-row td {
+    border: 1px solid gray;
+    padding: 8px;
 }
 
 .apply {
@@ -60,13 +203,20 @@ body {
 
 a {
     text-decoration: none;
+    color: #6366F1;
+}
+
+a:hover,
+a:focus {
+    color: blue;
 }
 
 #footer {
-    background-color: antiquewhite;
+    /* background-color: #F3F4F6; */
     padding: 8px;
     margin-top: 62px;
     text-align: center;
+    font-size: 14px;
 }
 
 #footer-links {
@@ -79,3 +229,5 @@ a {
     padding: 10px;
     margin: 0 auto;
 }
+
+/* .jobs-header-row {} */
