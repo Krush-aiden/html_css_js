@@ -1,3 +1,5 @@
+/* top | right | bottom | left */
+
 /* * {
     font-size: 15px;
 } */
@@ -45,6 +47,31 @@ h1 {
 
 }
 
+@media screen and (min-width: 400px) and (max-width: 700px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    body {
+        font-size: 1.2em;
+    }
+}
+
+/* .centerADiv {
+    text-align: center;
+    max-width: 100px;
+    margin: 0 auto;
+    margin-left: 900px;
+} */
+
 h1,
 h2,
 h3,
@@ -70,7 +97,6 @@ h6 {
 }
 
 
-/* top | right | bottom | left */
 
 .teamImage {
     border-width: 5px;
